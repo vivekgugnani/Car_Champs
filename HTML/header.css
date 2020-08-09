@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    height: 100px;
+    width: 100%;
+}
+#main-body #header table{
+    position: fixed;
+    left: 855px;
+}
+#header img {
+    position: absolute;
+    top: 35px;
+}
