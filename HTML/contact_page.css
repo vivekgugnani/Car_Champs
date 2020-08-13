@@ -1,0 +1,71 @@
+#contact-body{
+    z-index: 2;
+    position: absolute;
+}
+#contact-body table{
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+#contact-body table tr td input[type=text]{
+    background-color: rgb(223, 210, 210);
+    border: 0px;
+    width: 500px;
+    padding: 7px;
+}
+
+::placeholder{    
+    color: rgb(86, 86, 214);
+}
+
+#contact-body table tr td textarea{
+    background-color: rgb(223, 210, 210);
+    width: 500px;
+    height: 100px;
+    padding: 5px;
+    color: rgb(86, 86, 214);
+    border: 0px;
+}
+
+#contact-body table tr td input[type=button]{
+    background-color: rgb(45, 45, 238);
+    color: whitesmoke;
+    width: 35%;
+    margin-left: 65%;
+    height: 30px;
+}
+
+#box{
+    display: flex;
+    height: 200px;
+    width: 450px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+}
+
+#address{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color:rgb(45, 45, 238);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#phone{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color:rgb(45, 45, 238);
+    margin-top: 130px;
+    margin-left: -140px;
+}
+#box hr{
+    width: 100px;
+    height: 10px;
+    margin-top: 90px;
+    margin-left: -140px;
+    background-color: blue;
+}
+
+
