@@ -27,8 +27,6 @@ a {
     position: absolute;
     top: 35px;
 }
-#head-table a{
-} 
 #head-table a:hover{
 
     text-decoration: underline;
