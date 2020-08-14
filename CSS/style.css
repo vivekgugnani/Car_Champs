@@ -1,26 +1,29 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 a {
     text-decoration: none;
 }
 #header {
-    height: 100px;
+    height: auto;
     width: 100%;
-    background-color: #171123;
     
 }
+#header {
+    background-color: #fff;
+}
 #main-body #header table{
-    position: fixed;
-    left: 855px;
+    
+    position: relative;
+    left: 580px;
 }
 #header img {
     position: absolute;
     top: 35px;
 }
 #head-table a{
-    color: #f46036;
 } 
 #head-table a:hover{
   color: #62b6cb;
