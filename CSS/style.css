@@ -5,21 +5,27 @@
 a {
     text-decoration: none;
 }
+
 #header {
     height: 100px;
     width: 100%;
 }
 #main-body #header table{
     position: fixed;
-    left: 855px;
+    left: 580px;
+    border-radius: 5px;
+    height: 100px;
 }
+
 #header img {
     position: absolute;
     top: 35px;
 }
 #head-table a:hover{
-  color: #5772FF;
+    text-decoration: underline;
+    color: rgba(88, 113, 187, 0.986);
 }
+
 body {
     font-family: Arial,Helvetica,sans-serif;
 }
