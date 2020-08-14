@@ -5,6 +5,7 @@
 a {
     text-decoration: none;
 }
+
 #header {
     height: 100px;
     width: 100%;
@@ -13,8 +14,11 @@ a {
 }
 #main-body #header table{
     position: fixed;
-    left: 855px;
+    left: 580px;
+    border-radius: 5px;
+    height: 100px;
 }
+
 #header img {
     position: absolute;
     top: 35px;
@@ -23,8 +27,12 @@ a {
     color: #f46036;
 } 
 #head-table a:hover{
-  color: #62b6cb;
+
+    text-decoration: underline;
+    color: rgba(88, 113, 187, 0.986);
+
 }
+
 body {
     font-family: Arial,Helvetica,sans-serif;
 }

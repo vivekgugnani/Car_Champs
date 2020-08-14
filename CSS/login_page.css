@@ -16,7 +16,7 @@
     border-bottom: 2px solid black;
     outline: none;
 }
-table {
+#login-body table {
     width: 100%;
 }
 #for-more-info {
