@@ -1,4 +1,4 @@
-#fw73l-mesh-styles {
+
       #fw73linlineContent {
         height: auto;
         width: 100%;
@@ -142,4 +142,3 @@
       #fw73linlineContent-gridContainer>[id$="-rotated-wrapper"]>* {
         pointer-events: auto;
       }
-}
