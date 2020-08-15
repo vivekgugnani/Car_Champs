@@ -84,17 +84,20 @@ img {vertical-align: middle;}
 
 
 #First{
-  display: block;
-  height: 350px;
-  width: 500px;
-  margin: 40px 260px;
+    display: block;
+    height: 350px;
+    width: 700px;
+    margin: 40px 260px;
+    box-shadow: 6px -7px 13px 0px #b4aeae7d;
+    border-radius: 10px;
 }
 
 #First img{
   height: 300px;
   width: 300px;
   position: absolute;
-  
+  margin-left: 10px;
+  margin-top: 25px;
 }
 
 #First #car-washing{
@@ -106,12 +109,13 @@ img {vertical-align: middle;}
 #First #car-washing h3{
   color: goldenrod;
   position: absolute;
+  margin-top: 30px;
 }
 
 #First #car-washing p{
   color: #8e7979;
   width: 300px;
-  margin-top: 70px;
+  margin-top: 120px;
   position: absolute;
 }
 
@@ -126,7 +130,7 @@ img {vertical-align: middle;}
   display: block;
   height: 200px;
   width: 500px;
-  margin: 330px 0px;
+  margin: 440px 0px 20px 0px;
 }
 
 #Down_Part h1{
