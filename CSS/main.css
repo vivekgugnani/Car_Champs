@@ -8,6 +8,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 10px;
 }
 
 /* Next & previous buttons */
@@ -39,9 +40,9 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: #c9b8b8;
+  font-size: 40px;
+  padding: 10px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -79,6 +80,77 @@ img {vertical-align: middle;}
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+
+#First{
+  display: block;
+  height: 350px;
+  width: 500px;
+  margin: 40px 260px;
+}
+
+#First img{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  
+}
+
+#First #car-washing{
+  position: relative;
+  display: flex;
+  margin: 40px 350px;
+}
+
+#First #car-washing h3{
+  color: goldenrod;
+  position: absolute;
+}
+
+#First #car-washing p{
+  color: #8e7979;
+  width: 300px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+#heading{
+    margin: 40px 430px;
+    font-size: xxx-large;
+    color: #a52a94;
+    text-shadow: 0px 5px 5px black;
+}
+
+#Down_Part {
+  display: block;
+  height: 200px;
+  width: 500px;
+  margin: 330px 0px;
+}
+
+#Down_Part h1{
+    color: palevioletred;
+    text-shadow: 0px 4px 6px #ae8f8f;
+}
+
+#Down_Part p{
+    margin-top: 10px;
+    color: #675954;
+    font-family: cursive;   
+}
+
+#Down_Part #contact a{
+  display: block;
+  font-size: 50px;
+  margin-top: 70px;
+  text-decoration: none;
+  margin-left: 250px; 
+}
+
+#Down_Part #contact a:hover{
+  text-decoration: underline;
+  color: rgb(112, 125, 248);
 }
 
 @-webkit-keyframes fade {
