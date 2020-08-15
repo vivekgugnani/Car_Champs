@@ -1,4 +1,5 @@
 
+
   var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -26,3 +27,4 @@
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   }     
+
