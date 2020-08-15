@@ -3,7 +3,13 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-a {
+#header table tr th a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+a{
     text-decoration: none;
 }
 
@@ -12,6 +18,7 @@ a {
     width: 100%;
     
 }
+
 #header {
     background-color: #fff;
 }
@@ -40,28 +47,33 @@ body {
 #footer {
     background-color: rgb(231, 209, 136);
     width: 100%;
-    height: 150px;
-    padding-top: 1%;
+    height: 170px;
+    margin-top: 400px;
 }   
 #cl1 {
     float: left;
     width: 30%;
     text-align: center;
+    margin-top: 40px;
 }
 #cl2 {
     float: left;
     width: 40%;
     text-align: center;
+    margin-top: 40px;
 }
 #cl3 {
     float: left;
     width: 30%;
     text-align: center;
+    margin-top: 40px;
 }
 #lastline {
-    margin-top: 70px;
+    margin-top: 120px;
     display: block;
     text-align: center;
+    margin-left: 550px;
+    position: absolute;
 }
 .social-image {
     width: 23px;
