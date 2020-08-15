@@ -1,10 +1,10 @@
 #contact-body{
     z-index: 2;
-    position: absolute;
+    position: relative;
 }
 #contact-body table{
-    margin-left: 50%;
-    margin-top: 15%;
+    margin-left: 18%;
+    margin-top: 5%;
 }
 
 #contact-body table tr td input[type=text]{
@@ -41,7 +41,7 @@
     width: 450px;
     border: 2px solid blue;
     position: absolute;
-    top: 48%;
+    top: 60%;
     left: 48%;
 }
 
@@ -61,7 +61,7 @@
     margin-left: -140px;
 }
 #box hr{
-    width: 100px;
+    width: 150px;
     height: 10px;
     margin-top: 90px;
     margin-left: -140px;
@@ -69,3 +69,22 @@
 }
 
 
+#contactus {
+    text-align: center;
+    margin-top: 50px;
+    color: #5772ff;
+    font-size: 50px;
+    font-weight: 800;
+}
+#us {
+    color: rgb(46, 45, 45);
+}
+
+#nakli {
+    display: flex;
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: 60%;
+    left: 48%;
+}

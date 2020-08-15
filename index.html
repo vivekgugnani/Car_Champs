@@ -1,112 +1,161 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="javaScript/mainJs.js"></script>
-  </head>
-  <body>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="javaScript/mainJs.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="main-body">
+    <div id="header" style="background-color:darkseagreen;">
+      <img src="icons/logo.jfif" height="60px" width="60px"
+        style="margin-left: 20px; height: 60px; width: 60px; border-radius: 10px; margin-top: -15px">
+      <table cellpadding="40">
+        <tr>
+          <th><a class="Button" href="#">Home</a></th>
+          <th><a class="Button" href="about_page.html">About</a></th>
+          <th><a class="Button" href="service_page.html">Service</a></th>
+          <th><a class="Button" href="contact_page.html">Contact</a></th>
+          <th><a class="Button" href="login_page.html"><img height="30px" src="icons/profile.png">&emsp;&emsp; Log
+              In</a></th>
+        </tr>
+      </table>
+    </div>
+
+
+    <h1 style="color: #78509e; margin: 15px 260px; font-style: oblique;">Some Modifications Are Below..</h1>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
     
-    <div id="main-body">
-      <div id="header" style="background-color:darkseagreen;">
-        <img src="icons/logo.jfif" height= "60px" width="60px" style="margin-left: 20px; height: 60px; width: 60px; border-radius: 10px; margin-top: -15px">
-        <table cellpadding="40">
-          <tr>
-            <th><a class="Button" href="#">Home</a></th>
-            <th><a class="Button" href="about_page.html">About</a></th>
-            <th><a class="Button" href="service_page.html">Service</a></th>
-            <th><a class="Button" href="contact_page.html">Contact</a></th>
-            <th><a class="Button" href="login_page.html"><img height="30px" src="icons/profile.png">&emsp;&emsp; Log In</a></th>
-          </tr>
-        </table>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Images/first.jpeg" alt="Los Angeles" style="width:100%; height: 600px;">
+          </div>
+    
+          <div class="item">
+            <img src="Images/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="Chicago" style="width:100%;height: 600px;">
+          </div>
+        
+          <div class="item">
+            <img src="Images/lance-asper-N9Pf2J656aQ-unsplash.jpg" alt="New york" style="width:100%;height: 600px;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+    </div>
+    
 
+    <div id="heading">How I Works..</div>
+    <div id="First">
+      <img
+        src="https://images.theconversation.com/files/76578/original/image-20150331-1231-1ttwii6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" />
+      <div id="car-washing">
+        <h3><strong>CAR WASHING..</strong></h3>
+        <p>A car wash (also written as "carwash" or auto wash is a facility used to clean the exterior and, in some
+          cases, the interior of motor vehicles. Car washes can be self-serve, fully automated, or full-service with
+          attendants who wash the vehicle. It may also be an event where people pay to have their cars washed by
+          volunteers as a method to raise money for some purpose.</p>
+      </div>
+    </div>
 
-      <h1 style="color: #78509e; margin: 15px 260px; font-style: oblique;">Some Modifications Are Below..</h1>
-      <p style="color: rgb(77, 51, 100); margin-left:260px; font-style: oblique;" id="p">Click on Dots..</p>
-      <div class="slideshow-container">
+    <div id="First">
+      <img src="https://i.insider.com/5cb0f62f95cb154f423b6985?width=1100&format=jpeg&auto=webp" />
+      <div id="car-washing">
+        <h3><strong>Modifications of HeadLights..</strong></h3>
+        <p>Installing a new headlamp cluster or tail lamp cluster can make your vehicle look much more appealing.
+          Installing underbody neon lights had been in vogue for quite some time although it has faded out in the past
+          decade.</p>
+      </div>
+    </div>
 
-        <div class="mySlides fade">
-          <img src="Images/first.jpeg" style="width:100%; height: 450px;">
-          <h2 class="text">First One..</h2>
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="Images/lance-asper-N9Pf2J656aQ-unsplash.jpg" style="width:100%; height: 450px;">
-          <h2 class="text">Second One..</h2>
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaQN_e0svVvOnHZHsHmwxib-txlbWC2A789w&usqp=CAU" style="width:100%; height: 450px;">
-          <h2 class = "text" style="color: rgb(82, 69, 69)">Third one..</h2>
-        </div>
+    <div id="First">
+      <img src="https://www.autotrainingcentre.com/wp-content/uploads/2013/09/Auto-paint-matching.jpg" />
+      <div id="car-washing">
+        <h3><strong>Paint On Cars..</strong></h3>
+        <p>Paint jobs are usually referred to the single stage enamel painting done on cars. But “paint job” has a
+          diverse meaning. With different painting processes available in the market, paint jobs can mean anything from
+          a single tone paint scheme to a matte finish paint job to pearlescent paint schemes to airbrushing</p>
+      </div>
+    </div>
 
-        <div class="mySlides fade">
-          <img src="Images/third.jpg" style="width:100%; height: 450px;">
-          <h2 class = "text" style="color: rgb(82, 69, 69)">Fourth one..</h2>
-        </div>
-
-        <div class="mySlides fade">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUwfJYlnySLCN4-a7QB-NC8N0K9HZHrB_J4A&usqp=CAU" style="width:100%; height: 450px;">
-          <h2 class = "text" style="color: rgb(82, 69, 69)">Fifth one..</h2>
-
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span> 
-        </div>
-
-        <div id="heading">How I Works..</div>
-        <div id="First">
-          <img src="https://images.theconversation.com/files/76578/original/image-20150331-1231-1ttwii6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"/>
-          <div id="car-washing">
-            <h3><strong>CAR WASHING..</strong></h3>
-            <p>A car wash (also written as "carwash" or auto wash is a facility used to clean the exterior and, in some cases, the interior of motor vehicles. Car washes can be self-serve, fully automated, or full-service with attendants who wash the vehicle. It may also be an event where people pay to have their cars washed by volunteers as a method to raise money for some purpose.</p>
-          </div>
-        </div>    
-      
-        <div id="First">
-          <img src="https://i.insider.com/5cb0f62f95cb154f423b6985?width=1100&format=jpeg&auto=webp"/>
-          <div id="car-washing">
-            <h3><strong>Modifications of HeadLights..</strong></h3>
-            <p>Installing a new headlamp cluster or tail lamp cluster can make your vehicle look much more appealing. Installing underbody neon lights had been in vogue for quite some time although it has faded out in the past decade.</p>
-          </div>
-        </div>    
-
-        <div id="First">
-          <img src="https://www.autotrainingcentre.com/wp-content/uploads/2013/09/Auto-paint-matching.jpg"/>
-          <div id="car-washing">
-            <h3><strong>Paint On Cars..</strong></h3>
-            <p>Paint jobs are usually referred to the single stage enamel painting done on cars. But “paint job” has a diverse meaning. With different painting processes available in the market, paint jobs can mean anything from a single tone paint scheme to a matte finish paint job to pearlescent paint schemes to airbrushing</p>
-          </div>
-        </div> 
-        
-        <div id="First">
-          <img src="https://lh3.googleusercontent.com/proxy/xobekGk7O_0ehpnJffpplUIfAc7OCAWoc4Ct4x5tCl4aptfotdoGpa0h4StBAupOlG73L6dn4ztXWTATclI-k4dRtMtbGj0j5bxhm10Zya0pjQso03a5YqLug1ohrgoXMDjW_WYXwt0v0DPIPA"/>
-          <div id="car-washing">
-            <h3><strong>Body Kits..</strong></h3>
-            <p>Body kits are extra body panels that are installed on a vehicle. It changes the shape, size, and appearance of the vehicle. Body kits might consist of wheel fenders, hoods, side skirts, front and rear bumpers, grilles, roof top vents, and spoilers. Although body kits usually change the physical appearance of the cars, they might also affect the performance by making alterations to the aerodynamics and the weight of the car.</p>
-          </div>
+    <div id="First">
+      <img
+        src="https://lh3.googleusercontent.com/proxy/xobekGk7O_0ehpnJffpplUIfAc7OCAWoc4Ct4x5tCl4aptfotdoGpa0h4StBAupOlG73L6dn4ztXWTATclI-k4dRtMtbGj0j5bxhm10Zya0pjQso03a5YqLug1ohrgoXMDjW_WYXwt0v0DPIPA" />
+      <div id="car-washing">
+        <h3><strong>Body Kits..</strong></h3>
+        <p>Body kits are extra body panels that are installed on a vehicle. It changes the shape, size, and appearance
+          of the vehicle. Body kits might consist of wheel fenders, hoods, side skirts, front and rear bumpers, grilles,
+          roof top vents, and spoilers. Although body kits usually change the physical appearance of the cars, they
+          might also affect the performance by making alterations to the aerodynamics and the weight of the car.</p>
+      </div>
 
       <div id="Down_Part">
         <h1>Wanna modification...</h1>
-        <p>While the number of cars on Indian roads is increasing constantly, more and more people are also inclining towards car modification. The primary reason being the urge to get noticed while hitting the tarmac. Car modification helps in making your ride stand apart from the rest of the vehicles. It makes your vehicle vary, both in terms of appearance and performance, from the generic stock vehicles manufactured by the same manufacturers.</p>
-        <div id="contact"><a href="contact_page.html">Contact us</a></div>
-      </div>  
+        <p>While the number of cars on Indian roads is increasing constantly, more and more people are also inclining
+          towards car modification. The primary reason being the urge to get noticed while hitting the tarmac. Car
+          modification helps in making your ride stand apart from the rest of the vehicles. It makes your vehicle vary,
+          both in terms of appearance and performance, from the generic stock vehicles manufactured by the same
+          manufacturers.</p>
+      </div>
 
     </div>
-  </div>  
-  </body>
+    <div id="footer">
+      <div id="cl1">
+        <h3>CAR CHAMPS.</h3>
+        <span>Custom Car Makers</span>
+      </div>
+      <div id="cl2">
+        <p>
+          500 Terry Francois Street<br />
+
+          San Francisco, CA 94158
+        </p>
+        <a href="https://www.facebook.com/vaibhav.jain.50999"><img class="social-image"
+            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_29,h_29,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp" /></a>
+        <a href="#"><img class="social-image"
+            src="https://static.wixstatic.com/media/8f6f59264a094af0b46e9f6c77dff83e.png/v1/fill/w_29,h_29,al_c,q_85,usm_0.66_1.00_0.01/8f6f59264a094af0b46e9f6c77dff83e.webp" /></a>
+        <a href="https://www.instagram.com/iam_sumitsoni__/"><img class="social-image"
+            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_29,h_29,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp" /></a>
+      </div>
+      <div id="cl3">
+        <p>
+          Tel: 123-456-7890<br />
+
+          Opening Hours: 9am - 7pm
+        </p>
+      </div>
+      <div id="lastline">
+        <p>
+          <br />© 2023 by Car Champs. Made with ❤ by Sumit, Vivek& Vaibhav
+        </p>
+        <br />
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
