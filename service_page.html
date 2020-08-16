@@ -3,10 +3,11 @@
     <head>
       <link rel="stylesheet" type="text/css" href="CSS/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+      <script src="javaScript/service.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="main-body">
-          <div id="header" style="background-color:darkseagreen;">
+            <div id="header" style="background-color:darkseagreen;">
               <img src="icons/logo.jfif" height= "60px" width="60px" style="margin-left: 20px; height: 60px; width: 60px; border-radius: 10px; margin-top: -15px">
                 <table cellpadding="40" id="head-table">
                   <tr>
@@ -17,10 +18,29 @@
                     <th><a class="Button" href="login_page.html" style="margin-right: 0px;"><img height="30px" src="icons/profile.png">&emsp;&emsp; Log In</a></th>
                   </tr>
                 </table>
+            </div>
+
+              <div id="middle">
+                <h1 style="color: #60b6b6; background-color: #e91e6f;">My Services are like : </h1>
+                <div id="images">
+                    <h2 style="margin-top: 15px; color: darkblue; font-size: xx-large; font-family: cursive;">You Can Change Your Colour of Car..</h2>
+                    <img src="Images/WhiteAudi.webp" class="img1" alt="white" style=" margin-left: 150px;"/>
+                    <img src="Images/BlackAudi.webp" class="img2" alt="black" style="display: none; margin-left: 150px;"/>
+                    <img src="Images/greyAudi.webp" class="img3" alt="darkblue" style="display: none; margin-left: 150px;" />
+                    <img src="Images/SevellicAudi.webp" class="img4"alt="sevellic" style="display: none; margin-left: 150px;"/>
+                    <img src="Images/FirmanentblueAu0di.webp" class="img5" alt="Firmanent Blue" style="display: none; margin-left: 150px;"/>
+                </div>
+                <div id="colours" style="position: relative; left: 50%; margin-bottom: 10px;">
+                    <button id="img1" onclick="Display(id)" style="border-radius: 50%; height: 30px; width: 30px; background-color: #f1f3e8;"></button>
+                    <button id="img2" onclick="Display(id)" style="border-radius: 50%; height: 30px; width: 30px; background-color: #0d1a20;"></button>
+                    <button id="img3" onclick="Display(id)" style="border-radius: 50%; height: 30px; width: 30px; background-color: #222222;"></button>
+                    <button id="img4" onclick="Display(id)" style="border-radius: 50%; height: 30px; width: 30px; background-color: #650A19;"></button>
+                    <button id="img5" onclick="Display(id)" style="border-radius: 50%; height: 30px; width: 30px; background-color: #1B2128;"></button> 
+                </div>
               </div>
               <div id="footer">
                 <div id="cl1">
-                  <h3>CAR CHAMPS.</h3>
+                  <h3>CAR CHAMPS.h3> 
                   <span>Custom Car Makers</span>
                 </div>
                 <div id="cl2">
