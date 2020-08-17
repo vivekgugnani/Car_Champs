@@ -1,7 +1,7 @@
 #login-body {
   float: left;
   width: 30%;
-  padding: 15% 8%;
+  padding: 15% 8% 0% 8%;
   position: relative;
 }
 #login-image {
@@ -32,5 +32,33 @@
 }
 
 #nakli {
-  height: 700px;
+  height: 730px;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  font-size: smaller;
+}
+
+#message p {
+  font-size: smaller;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  content: "✖";
 }
