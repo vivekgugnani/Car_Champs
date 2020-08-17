@@ -1,6 +1,6 @@
-function Display( id) {
+function Display(id) {
   var choice = id;
-  var img = document.getElementsByClassName(id);
+  var img = document.getElementsById(id);
   switch (choice) {
     case "img1":{
       img.src = "Images/WhiteAudi.webp";

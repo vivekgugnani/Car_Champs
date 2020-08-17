@@ -37,7 +37,7 @@ a{
 #head-table a:hover{
 
     text-decoration: underline;
-    color: rgba(88, 113, 187, 0.986);
+    color: rgba(140, 64, 226, 0.993);
 
 }
 
@@ -78,4 +78,10 @@ body {
     width: 23px;
     height: 23px;
     object-fit: cover;
+}
+#car-champ {
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-bottom: 5px;
 }
