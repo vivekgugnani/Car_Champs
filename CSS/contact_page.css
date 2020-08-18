@@ -39,7 +39,7 @@
     border: 0px;
 }
 
-#contact-body table tr td input[type=button]{
+#contact-body table tr td input[type=submit]{
     background-color: rgb(45, 45, 238);
     color: whitesmoke;
     width: 35%;
