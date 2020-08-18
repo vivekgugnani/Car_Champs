@@ -13,6 +13,12 @@
     width: 500px;
     padding: 7px;
 }
+#contact-body table tr td input[type=email]{
+    background-color: rgb(223, 210, 210);
+    border: 0px;
+    width: 500px;
+    padding: 7px;
+}
 #contact-body table tr td select{
     background-color: rgb(223, 210, 210);
     border: 0px;
