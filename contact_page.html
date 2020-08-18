@@ -34,16 +34,17 @@
     <div id="contactus">
       <span>CONTACT <span id="us">US</span></span>
     </div>
-    <div id="contact-body">
+    <div id="contact-body" >
+      <form name="form">
       <table>
         <tr>
-          <td><input type="text" placeholder="Name" /></td>
+          <td><input type="text" placeholder="Name" required/></td>
         </tr>
         <tr>
-          <td><input type="text" placeholder="Email" /></td>
+          <td><input type="email" placeholder="Email" name="email" required/></td>
         </tr>
         <tr>
-          <td><input type="Text" placeholder="Phone" /></td>
+          <td><input type="Text" placeholder="Phone" id="phonenumber"/></td>
         </tr>
         <tr>
           <td><select>
@@ -54,15 +55,16 @@
           </select></td>
         </tr>
         <tr>
-          <td><textarea placeholder="Type your message here..."></textarea></td>
+          <td><textarea placeholder="Type your message here..." required></textarea></td>
         </tr>
         <tr>
-          <td><input type="button" value="GET YOUR QUOTE!" /></td>
+          <td><input type="submit" onclick="ValidateEmail(document.form.email)" value="GET YOUR QUOTE!" /></td>
         </tr>
         <tr>
           <td><p>All feilds are required.😊</p></td>
         </tr>
       </table>
+      </form>
     </div>
 
     <div id="box">
@@ -111,6 +113,7 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="javaScript/contactJs.js"></script>
 </body>
 
 </html>
